@@ -18,14 +18,14 @@ output "database_subnet_group_name"{
   value = aws_db_subnet_group.default.name
 }
 
-output "az_info" {
-    value = data.aws_availability_zones.available
-}
+# output "az_info" {
+#     value = data.aws_availability_zones.available
+# }
 
-output "default_vpc_info" {
-  value = data.aws_vpc.default
-}
+# output "default_vpc_info" {
+#   value = data.aws_vpc.default
+# }
 
-output "main_route_table_info" {
-  value = data.aws_route_table.main
-}
+# output "main_route_table_info" {
+#   value = data.aws_route_table.main
+# }
